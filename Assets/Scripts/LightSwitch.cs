@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class LightSwitch : MonoBehaviour
 {
-    public int switchIndex;
-    public Light linkedLight;
-
     MQTT mqtt;
     
     void Start()
@@ -18,16 +15,5 @@ public class LightSwitch : MonoBehaviour
     void Update()
     {
 
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (linkedLight != null && mqtt != null)
-        {
-            bool newState = !linkedLight.enabled;
-            linkedLight.enabled = newState;
-
-            mqtt.SetLedState(switchIndex, newState);
-        }
     }
 }
