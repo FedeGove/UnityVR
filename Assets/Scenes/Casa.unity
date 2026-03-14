@@ -1101,6 +1101,10 @@ PrefabInstance:
       value: XR Interaction Simulator
       objectReference: {fileID: 0}
     - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8135023674665499069, guid: 58d0a4ac86f2348deb02f3880c71378e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4884,7 +4888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &911569642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4897,7 +4901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b8e2f3e98c58ac43b2810e510888b76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MQTT
-  brokerAddress: 192.168.0.144
 --- !u!4 &911569643
 Transform:
   m_ObjectHideFlags: 0

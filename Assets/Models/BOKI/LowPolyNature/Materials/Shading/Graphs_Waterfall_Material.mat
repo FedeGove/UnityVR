@@ -55,12 +55,13 @@ Material:
     - Vector1_94dcfc32c454499d8af1946d3f75e139: 5.26
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _XRMotionVectorsPass: 1
     m_Colors:
     - Color_a389c53ee3ca42da89edeeac013ef05c: {r: 0.07097722, g: 0.16552748, b: 0.2735849, a: 1}
     - Vector2_4041d5327b7446bc8b5b29c51396a32f: {r: 0, g: 0.38, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &238571177397536493
+--- !u!114 &5808356944493630310
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
