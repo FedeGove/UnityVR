@@ -20,7 +20,7 @@ public class MQTT : MonoBehaviour
     private string tempTopic = "sensori/casa/temp";
     private string pirTopic = "sensori/casa/pir";
 
-    public string brokerAddress = "192.168.0.144";
+    private string brokerAddress = "192.168.1.78";
 
     // Start is called before the first frame update
     void Start()
